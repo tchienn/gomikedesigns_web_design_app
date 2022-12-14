@@ -749,6 +749,11 @@ a {
     height: 30rem;
 }
 
+.form-img {
+    width: 50rem;
+    height: 35rem;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
