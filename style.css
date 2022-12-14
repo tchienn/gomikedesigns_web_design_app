@@ -104,10 +104,6 @@ a:hover {
     color: rgba(255, 255, 255, .7);
 }
 
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
-}
-
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -160,10 +156,6 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
 .d-bloc .panel icon {
     border-color: rgba(0, 0, 0, .7);
 }
@@ -191,8 +183,7 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
+.d-bloc {
     color: rgba(0, 0, 0, .7);
 }
 
@@ -291,10 +282,6 @@ a:hover {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none!important;
 }
 
 .btn-rd {
@@ -738,6 +725,13 @@ a {
     width: 75rem;
     text-align: center;
     font-size: 1.7rem;
+}
+
+.button {
+    background-color: #F3976C;
+    border: transparent;
+    border-radius: 3rem;
+    color: #FFF;
 }
 
 @media (max-width: 1024px) {
