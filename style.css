@@ -815,20 +815,12 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta-made-sign.jpg");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta-made-sign-orange-min.jpg");
 }
 
 @media (max-width: 1024px) {
