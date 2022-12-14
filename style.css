@@ -738,6 +738,11 @@ a {
     text-align: center;
 }
 
+.contact {
+    padding: 8rem;
+    height: 30rem;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
