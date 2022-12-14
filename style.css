@@ -730,8 +730,11 @@ a {
 .button {
     background-color: #F3976C;
     border: transparent;
-    border-radius: 3rem;
+    border-radius: 4rem;
     color: #FFF;
+    font-size: 2rem;
+    padding: 3rem;
+    margin: 3rem;
 }
 
 .portfolio-heading {
@@ -739,6 +742,9 @@ a {
 }
 
 .contact {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5rem;
     padding: 8rem;
     height: 30rem;
 }
