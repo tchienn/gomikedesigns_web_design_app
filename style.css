@@ -731,11 +731,12 @@ a {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 2.5rem;
 }
 
 .footer-heading {
     font-weight: 600;
+    line-height: 5rem;
 }
 
 .footer-list {
@@ -745,7 +746,20 @@ a {
 
 .footer-list-item {
     display: inline;
-    padding: 0 2rem 0 2rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+@media (max-width: 768px) {    
+    .footer-heading {
+        width: 65rem;
+        font-size: 1.75rem;
+        line-height: 3rem;
+    }
+    
+    .footer-list-item {
+        font-size: 2rem;
+        padding: 3rem;
+    }
 }
 
 @media (max-width: 1024px) {
