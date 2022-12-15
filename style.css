@@ -749,6 +749,12 @@ a {
     padding: 0 1.5rem 0 1.5rem;
 }
 
+@media (max-width: 768px) {
+    .home-header-logo-logo {
+        width: 35rem;
+    }
+}
+
 @media (max-width: 768px) {    
     .footer-heading {
         width: 65rem;
