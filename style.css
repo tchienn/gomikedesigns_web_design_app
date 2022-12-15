@@ -726,9 +726,26 @@ a {
     height: 35rem;
 }
 
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footer-heading {
+    font-weight: 600;
+}
+
 .footer-list {
     list-style-type: none;
+    margin-top: 2rem;
+}
+
+.footer-list-item {
     display: inline;
+    padding: 0 2rem 0 2rem;
 }
 
 @media (max-width: 1024px) {
