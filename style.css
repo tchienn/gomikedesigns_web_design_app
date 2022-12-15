@@ -790,6 +790,29 @@ legend {
     padding: 0 1.5rem 0 1.5rem;
 }
 
+.about {
+    padding: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.about-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.about-list {
+    list-style-type: none;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
 @media (max-width: 768px) {
     .home-header-logo-logo {
         width: 35rem;
