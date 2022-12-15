@@ -755,6 +755,20 @@ a {
     }
 }
 
+@media (max-width: 992px) {
+    .header-logo-logo {
+        width: 25rem;
+    }
+    
+    .nav-list {
+        padding: 0;
+    }
+
+    .nav-list li {
+        padding: 0 4em 0 0;
+    }
+}
+
 @media (max-width: 768px) {    
     .footer-heading {
         width: 65rem;
