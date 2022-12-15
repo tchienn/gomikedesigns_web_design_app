@@ -326,8 +326,17 @@ a:hover {
     border-radius: 0 0 29px 29px;
 }
 
+.invalid-feedback {
+    display: none;
+    color: red;
+}
+
 .form-control {
+    margin: 1rem;
+    padding: 1rem;
+    width: 60rem;
     border-color: rgba(0, 0, 0, .1);
+    border-radius: 5rem;
     box-shadow: none;
 }
 
@@ -684,6 +693,8 @@ a {
     font-size: 2rem;
     padding: 3rem;
     margin: 3rem;
+    align-self: center;
+    width: 20rem;
 }
 
 .portfolio-heading {
@@ -706,6 +717,35 @@ a {
     color: #fff;
 }
 
+.contact-page {
+    padding: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.form-header {
+    width: 60rem;
+    line-height: 2.7rem;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: 800;
+    font-size: 1.4rem;
+    padding: 2rem 0 2rem 0;
+}
+
 .contact {
     display: flex;
     flex-flow: row wrap;
@@ -724,6 +764,7 @@ a {
 .form-img {
     width: 50rem;
     height: 35rem;
+    border-radius: 3rem;
 }
 
 .footer {
@@ -766,6 +807,89 @@ a {
 
     .nav-list li {
         padding: 0 4em 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        padding: 3rem;
+        gap: 3rem;
+    }
+    
+    .services-heading {
+        width: 55rem;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    
+    .services-flex-container {
+        flex-flow: column wrap;
+    }
+    
+    .services-flex-item {
+        flex-flow: column wrap;
+        align-items: center;
+        width: 35rem;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    .quote {
+        padding: 2rem 0 5rem 0;
+        width: 55rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .contact-page {
+        padding: 0;
+        margin: 0;
+        gap: 2rem;
+    }
+    
+    .form-header {
+        line-height: 2.7rem;
+        font-weight: 300;
+        width: 30rem;
+    }
+    
+    fieldset {
+        border: none;
+    }
+    
+    legend {
+        font-weight: 800;
+        font-size: 1.4rem;
+        padding: 2rem 0 2rem 0;
+    }
+    
+    .contact {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        padding: 8rem;
+        height: 30rem;
+    }
+    
+    .contact-heading {
+        font-weight: 900;
+        color: #fff;
+    }
+    
+    .form-img {
+        width: 25rem;
+        height: 15rem;
+        border-radius: 3rem;
+    }
+
+    .button {
+        margin: 0;
+    }
+
+    .form-control {
+        width: 20rem;
     }
 }
 

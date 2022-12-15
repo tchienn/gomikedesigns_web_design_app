@@ -53,53 +53,47 @@
 	<!-- bloc-0 END -->
 
 	<!-- bloc-6 -->
-	<section>
-		<div class="col-sm-12">
-			<p class="text-center hero-bloc-text tc-white">
-				Let's talk web design!
-			</p>
-			<p class="text-center mg-lg tc-white tight-width-whitespace">
-				I'm super excited that you want to work together. Please fill in the form below or get in touch so I can learn about your project and we can setup time to talk websites and Atlanta city love.
-			</p>
-		</div>
+	<section class="contact-page">
+		<h1 class="form-header mg-lg">
+			Let's get in touch! Please fill in the form below so I can learn about your project and we can setup time to talk about website design.
+		</h1>
+		<!-- FORM -->
+		<form class="form" id="form_1">
+			<fieldset>
+				<legend>Your contact information</legend>
+				<label for="name">Your name:</label>
+				<input type="text" name="name" placeholder="Enter name here..." id="form-control" class="form-control" required aria-required="true" aria-describedby="feedback-message"><br>
+				<div class="invalid-feedback" id="feedback-message">
+					Please provide a valid name
+				</div>
+				<label for="email">Your email:</label>
+				<input type="text" name="email" placeholder="Enter email here..." id="email" class="form-control" required aria-required="true" aria-describedby="feedback-message">
+				<div class="invalid-feedback" id="feedback-message">
+					Please provide a valid email address
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>About you</legend>
+				<label for="information">How did you find me?</label>
+				<input type="text" name="name" placeholder="Enter response here..." id="form-control" class="form-control" required aria-required="true" aria-describedby="feedback-message"><br>
+				<div class="invalid-feedback" id="feedback-message">
+					Please provide a response
+				</div>
+				<label for="email">Prioject brief:</label>
+				<input type="text" name="email" placeholder="Please be as detailed as possible..." id="email" class="form-control" required aria-required="true" aria-describedby="feedback-message">
+				<div class="invalid-feedback" id="feedback-message">
+					Please provide a response
+				</div>
+			</fieldset>
+			<button class="button bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" input type="submit">
+				Submit
+			</button>
+		</form>
+		<!-- FORM END -->
+		<img src="./img/pexels-tranmautritam-251225-min-min.jpg" class="form-img" alt="Multiple web design screens">
 	</section>
 	<!-- bloc-6 END -->
 
-	<!-- bloc-7 -->
-	<form id="form_1">
-		<fieldset>
-			<legend>Your contact information</legend>
-			<label for="name">Your name:</label>
-			<input type="text" name="name" placeholder="Enter name here..." id="form-control" class="form-control" required aria-required="true" aria-describedby="feedback-message">
-			<div class="invalid-feedback" id="feedback-message">
-				Please provide a valid name
-			</div>
-			<label for="email">Your email:</label>
-			<input type="text" name="email" placeholder="Enter email here..." id="email" class="form-control" required aria-required="true" aria-describedby="feedback-message">
-			<div class="invalid-feedback" id="feedback-message">
-				Please provide a valid email address
-			</div>
-		</fieldset>
-		<fieldset>
-			<legend>More information</legend>
-			<label for="information">How did you find me?</label>
-			<input type="text" name="information" placeholder="Enter response here..." class="form-control>
-		</fieldset>
-		<fieldset>
-			<legend>Your project brief</legend>
-			<label for="brief">Your project brief</label>
-			<textarea name="brief" placeholder="Please be as detailed as possible..." id="message" class="form-control" rows="4" cols="50" required ria-required="true" aria-describedby="feedback-message"></textarea>
-			<div class="invalid-feedback" id="feedback-message">
-				Please provide a response
-			</div>
-		</fieldset>
-		<button class="button bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" input type="submit">
-			Submit
-		</button>
-	</form>
-	<!-- bloc-7 END -->
-
-	<img src="./img/pexels-tranmautritam-251225-min-min.jpg" class="form-img" alt="Multiple web design screens">
 
 	<!-- ScrollToTop Button -->
 	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')">
