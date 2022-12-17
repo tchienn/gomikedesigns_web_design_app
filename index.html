@@ -32,34 +32,38 @@
 	<body>
 		
 	<!-- bloc-0 -->
-	<header class="home-header">
-		<div class="home-header-logo">
-			<a href="index.html">
-				<img src="img/atlanta-web-design-logo.svg" class="home-header-logo-logo" alt="Logo for GoMikeDesigns, Atlanta based freelance website designer">
-			</a>
-		</div>
-		<nav class="home-nav" role="navigation">
-			<ul class="home-nav-list">
-				<li class="home-nav-list-item">
-					<a href="./index.html">Home</a>
-				</li>
-				<li class="nav-list-item">
-					<a href="./about.html">About</a>
-				</li>
-				<li class="home-nav-list-item">
-					<a href="./contact.html">Contact</a>
-				</li>
-			</ul>
+	<header class="bloc bgc-white l-bloc" id="bloc-0">
+		<nav class="navbar row bloc-sm" role="navigation">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="./index.html"><img src="img/atlanta-web-design-logo.png" alt="Logo for GoMikeDesigns, Atlanta-based freelance web designer" height="40"></a>
+			</div>
+				<ul class="site-navigation nav navbar-nav">
+					<li>
+						<a href="./index.html">Home</a>
+					</li>
+					<li>
+						<a href="./about.html">About</a>
+					</li>
+					<li>
+						<a href="./contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 	<!-- bloc-0 END -->
 
 	<!-- bloc-1-hero -->
 	<section class="hero bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
-		<img src="img/atlanta-web-designer-mike.png" class="center-block image-resize-mode" width="100" alt="Graphic image of Mike, freelance website designer and owner of GoMikeDesigns">
-		<h1 class="hero-heading">
-			I'm Mike. Atlanta's best freelance Web Designer!
-		</h1>
+		<div class="row tight-width-whitespace col-sm-12">
+			<img src="img/atlanta-web-designer-mike.png" class="center-block image-resize-mode" width="100" alt="Graphic image of Mike, freelance website designer and owner of GoMikeDesigns">
+			<h1 class="hero-heading text-center hero-bloc-text tc-white">
+				I'm Mike. Atlanta's best freelance Web Designer!
+			</h1>
+			<div class="text-center">
+				<a href="./contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+			</div>
+		</div>
 	</section>
 	<!-- bloc-1-hero END -->
 
@@ -104,13 +108,23 @@
 
 	<!-- bloc-3-what-i-do -->
 	<section class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc" id="bloc-3-what-i-do">
-		<p class="what-i-do-para text-center">
-			<strong class="emphasised">I offer web design services that help local businesses stand out and attract new customers online.</strong>
-			I work with creative entrepreneurs and local Atlanta businesses that are either starting or needing to renew their website to attract business.<br>
-			<button class="button">
-				<a class="ltc-white bold-link" href="./contact.html">Contact me</a>
-			</button>
-		</p>
+		<div class="container bloc-lg">
+			<div class="row tight-width-whitespace black-background">
+				<div class="col-sm-12">
+					<h2 class="mg-md text-center">
+						<strong class="emphasised">I offer web design services that help local businesses stand out and attract new customers online.</strong>
+						I work with creative entrepreneurs and local Atlanta businesses that are either starting or needing to renew their website to attract business.<br>
+					</h2>
+					<p class="text-center white">
+						I'm super excited you're here. I partner with creative entrepreneurs and local Atlanta business that are either starting or needing to renew their website to attract business. 
+						Whether you need a complete brand identity or a redesign of your website, I'll work with you to create something that looks great and structured to be found on Google.
+						<div class="col-sm-12 text-center">
+							<a href="./contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact me</a>
+						</div>
+					</p>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- bloc-3-what-i-do END -->
 
@@ -171,12 +185,16 @@
 	<!-- bloc-4-portfolio END -->
 
 	<!-- bloc-5-cta -->
-	<section class="contact bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
-		<h2 class="contact-heading mg-md text-center">
-			Ready to optimise your website design? Let's collaborate!
-		</h2>
-		<div>
-			<a href="./contact.html" class="button cta-hero">Contact</a>
+	<section class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+		<div class="container bloc-lg">
+			<div class="row">
+				<h1 class="mg-md text-center">
+					Ready to optimise your website design? Let's collaborate!
+				</h1>
+				<div class="col-sm-12 text-center">
+					<a href="./contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-- bloc-5-cta END -->
@@ -188,16 +206,16 @@
 		</h2>
 		<ul class="footer-list">
 			<li class="footer-list-item">
-				<a class="social" href="index.html"><i class="fa fa-twitter icon-md"></i></a>
+				<a class="social twitter" href="index.html"><i class="fa fa-twitter icon-md"></i></a>
 			</li>
 			<li class="footer-list-item">
-				<a class="social" href="index.html"><i class="fa fa-facebook icon-md"></i></a>
+				<a class="social facebook" href="index.html"><i class="fa fa-facebook icon-md"></i></a>
 			</li>
 			<li class="footer-list-item">
-				<a class="social" href="index.html"><i class="fa fa-dribbble icon-md"></i></a>
+				<a class="social dribbble" href="index.html"><i class="fa fa-dribbble icon-md"></i></a>
 			</li>
 			<li class="footer-list-item">
-				<a class="social" href="index.html"><i class="fa fa-instagram icon-md"></i></a>
+				<a class="social instagram" href="index.html"><i class="fa fa-instagram icon-md"></i></a>
 			</li>
 		</ul>
 	</footer>
