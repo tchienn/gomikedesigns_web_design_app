@@ -1123,6 +1123,7 @@ a {
     font-size: 3.2rem;
     font-weight: 900;
     text-align: center;
+    color: #000;
 }
 
 .portfolio-txt-heading {
@@ -1132,6 +1133,7 @@ a {
 
 .portfolio-txt {
     font-size: 1.8rem;
+    color: #000;
 }
 /* PORTFOLIO SECTION STYLES END */
 /* HOME PAGE STYLES END  */
