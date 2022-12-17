@@ -31,22 +31,21 @@
 
 	<!-- bloc-0 -->
 	<header class="bloc bgc-white l-bloc" id="bloc-0">
-		<nav class="navbar row bloc-sm" role="navigation">
+		<nav class="navbar row bloc-sm">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="./index.html"><img src="img/atlanta-web-design-logo.png" alt="Logo for GoMikeDesigns, Atlanta-based freelance web designer" height="40"></a>
 			</div>
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="./index.html">Home</a>
-					</li>
-					<li>
-						<a href="./about.html">About</a>
-					</li>
-					<li>
-						<a href="./contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
+			<ul class="site-navigation nav navbar-nav">
+				<li>
+					<a href="./index.html">Home</a>
+				</li>
+				<li>
+					<a href="./about.html">About</a>
+				</li>
+				<li>
+					<a href="./contact.html">Contact</a>
+				</li>
+			</ul>
 		</nav>
 	</header>
 	<!-- bloc-0 END -->
@@ -61,30 +60,18 @@
 			<fieldset>
 				<legend>Your contact information</legend>
 				<label for="name">Your name:</label>
-				<input type="text" name="name" placeholder="Enter name here..." id="form-control" class="form-control" required aria-required="true" aria-describedby="feedback-message"><br>
-				<div class="invalid-feedback" id="feedback-message">
-					Please provide a valid name
-				</div>
+				<input type="text" name="name" placeholder="Enter name here..." id="name" class="form-control" required aria-required="true"><br>
 				<label for="email">Your email:</label>
-				<input type="text" name="email" placeholder="Enter email here..." id="email" class="form-control" required aria-required="true" aria-describedby="feedback-message">
-				<div class="invalid-feedback" id="feedback-message">
-					Please provide a valid email address
-				</div>
+				<input type="text" name="email" placeholder="Enter email here..." id="email" class="form-control" required aria-required="true">
 			</fieldset>
 			<fieldset>
 				<legend>About you</legend>
 				<label for="information">How did you find me?</label>
-				<input type="text" name="name" placeholder="Enter response here..." id="form-control" class="form-control" required aria-required="true" aria-describedby="feedback-message"><br>
-				<div class="invalid-feedback" id="feedback-message">
-					Please provide a response
-				</div>
-				<label for="email">Prioject brief:</label>
-				<input type="text" name="email" placeholder="Please be as detailed as possible..." id="email" class="form-control" required aria-required="true" aria-describedby="feedback-message">
-				<div class="invalid-feedback" id="feedback-message">
-					Please provide a response
-				</div>
+				<input type="text" name="information" placeholder="Enter response here..." id="information" class="form-control" required aria-required="true"><br>
+				<label for="brief">Project brief:</label>
+				<input type="text" name="brief" placeholder="Please be as detailed as possible..." id="brief" class="form-control" required aria-required="true">
 			</fieldset>
-			<button class="button bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" input type="submit">
+			<button class="button bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine">
 				Submit
 			</button>
 		</form>
