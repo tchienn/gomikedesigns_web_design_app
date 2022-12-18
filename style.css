@@ -235,6 +235,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    text-align: center;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -771,7 +772,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #161D31!important;
     padding: 2.5rem;
 }
 
@@ -1161,18 +1162,6 @@ a {
     font-size: 1.6rem;
     line-height: 3rem;
 }
-
-@media (max-width: 1300px) {
-    .about {
-        padding: 3rem;
-        gap: 1rem;
-    }
-    
-    .about-container {
-        flex-flow: column wrap;
-        gap: 2rem;
-    }
-}
 /* ABOUT PAGE STYLES END */
 
 /* CONTACT PAGE STYLES */
@@ -1198,29 +1187,6 @@ a {
 .contact-heading {
     font-weight: 900;
     color: #fff;
-}
-
-@media (max-width: 992px) {
-    .contact-page {
-        padding: 0;
-        margin: 0;
-        gap: 2rem;
-    }
-    
-    .contact {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 5rem;
-        padding: 8rem;
-        height: 30rem;
-    }
-    
-    .contact-heading {
-        font-weight: 900;
-        color: #fff;
-    }
 }
 
 /* FORM STYLES */
@@ -1253,22 +1219,11 @@ legend {
 
 @media (max-width: 992px) {
     .form-header {
-        font-weight: 300;
-        width: 30rem;
-    }
-    
-    fieldset {
-        border: none;
-    }
-    
-    legend {
-        font-weight: 800;
-        font-size: 1.4rem;
-        padding: 2rem 0 2rem 0;
+        width: 50rem;
     }
 
     .form-control {
-        width: 20rem;
+        width: 45rem;
     }
 }
 /* FORM STYLES END */
@@ -1296,19 +1251,6 @@ legend {
 .footer-list-item {
     display: inline;
     padding: 0 1.5rem 0 1.5rem;
-}
-
-@media (max-width: 768px) {    
-    .footer-heading {
-        width: 65rem;
-        font-size: 1.75rem;
-        line-height: 3rem;
-    }
-    
-    .footer-list-item {
-        font-size: 2rem;
-        padding: 3rem;
-    }
 }
 /* FOOTER STYLES END */
 /* CSS THERESSA END */
