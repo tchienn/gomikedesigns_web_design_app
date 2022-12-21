@@ -8,61 +8,61 @@ I used Lighthouse to verify the efficacy of changes made
 
 ### Home page (Mobile)
 
-Performance: 52
-Accessibility: 87
-Best practices: 92
-SEO: 94
+- Performance: 52
+- Accessibility: 87
+- Best practices: 92
+- SEO: 94
 
 ### Contact page (Mobile)
 
-Performance: 94
-Accessibility: 62
-Best practices: 92
-SEO: 72
+- Performance: 94
+- Accessibility: 62
+- Best practices: 92
+- SEO: 72
 
 ### Home page (Desktop)
 
-Performance: 82
-Accessibility: 85
-Best practices: 83
-SEO: 100 100
+- Performance: 82
+- Accessibility: 85
+- Best practices: 83
+- SEO: 100
 
 ### Contact page (Desktop)
 
-Performance: 99
-Accessibility: 62
-Best practices: 92
-SEO: 70
+- Performance: 99
+- Accessibility: 62
+- Best practices: 92
+- SEO: 70
 
 ## Lighthouse scores after my audit
 
 ### Home page (Mobile)
 
-Performance: 68 (+16)
-Accessibility: 100 (+13)
-Best practices: 92
-SEO: 100 (+6)
+- Performance: 68 (+16)
+- Accessibility: 100 (+13)
+- Best practices: 92
+- SEO: 100 (+6)
 
 ### Contact page (Mobile)
 
-Performance: 87 (-7)
-Accessibility: 100 (+38)
-Best practices: 92
-SEO: 100 (+28)
+- Performance: 87 (-7)
+- Accessibility: 100 (+38)
+- Best practices: 92
+- SEO: 100 (+28)
 
 ### Home page (Desktop)
 
-Performance: 96 (+13)
-Accessibility: 100 (+15)
-Best practices: 92 (+9)
-SEO: 100
+- Performance: 96 (+13)
+- Accessibility: 100 (+15)
+- Best practices: 92 (+9)
+- SEO: 100
 
 ### Contact page (Desktop)
 
-Performance: 99
-Accessibility: 100 (+38)
-Best practices: 92 
-SEO: 100 (+30)
+- Performance: 99
+- Accessibility: 100 (+38)
+- Best practices: 92 
+- SEO: 100 (+30)
 
 ## Actions taken
 
